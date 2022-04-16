@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Test Hadamard Product",
+      "setup": "",
+      "run": "./gradlew test --tests '*testHadamardMultiply'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "Test Transpose",
+      "setup": "",
+      "run": "./gradlew test --tests '*testTranspose'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "Test Matrix Multiply",
+      "setup": "",
+      "run": "./gradlew test --tests '*testMatrixMultiply'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "Test Parallel Transpose",
+      "setup": "",
+      "run": "./gradlew test --tests '*testParallelTranspose'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "Test Parallel Hadamard",
+      "setup": "",
+      "run": "./gradlew test --tests '*testParallelHadamard'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Test Parallel Matrix Multiply",
+      "setup": "",
+      "run": "./gradlew test --tests '*testParallelMatrixMultiply'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}

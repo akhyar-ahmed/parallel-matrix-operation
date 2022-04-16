@@ -1,0 +1,3 @@
+rootProject.name = 'bds-prog-ex3-block-matrix'
+include 'src'
+
